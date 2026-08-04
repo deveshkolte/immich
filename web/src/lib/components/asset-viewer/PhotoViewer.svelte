@@ -273,7 +273,7 @@
             <div
               aria-hidden="true"
               class="absolute rounded-sm bg-white/90 px-2 py-1 text-sm font-medium whitespace-nowrap text-black shadow-lg"
-              style="top: {boundingbox.height + 4}px; right: 0;"
+              style="top: {boundingbox.height + 4}px; right: 0; max-width: min(100%, {boundingbox.left}px);"
             >
               {boundingbox.name}
             </div>
